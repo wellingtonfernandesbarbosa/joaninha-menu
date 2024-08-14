@@ -1,5 +1,7 @@
+import Header from "@/components/Header";
 import styles from "./index.module.scss";
 import Head from "next/head";
+
 
 export default function Index() {
   return (
@@ -10,9 +12,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Cardáprio da Cantina da Dona Joaninha" />
       </Head>
-      <main>
-        <h1>Cardáprio da Dona Joaninha</h1>
-      </main>
+      <Header />
     </div>
   );
 }
