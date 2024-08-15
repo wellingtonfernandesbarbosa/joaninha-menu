@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Joaninha from "@/images/Joaninha.png";
 import styles from "./Header.module.scss";
+import { Item } from "@/types";
 
 export default function Header() {
   return (
