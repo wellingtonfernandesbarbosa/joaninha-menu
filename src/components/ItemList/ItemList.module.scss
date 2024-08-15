@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1em;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      gap: 1em;
+
+      &__name {
+        width: 71%;
+      }
+    }
+  }
+}

@@ -1,6 +1,10 @@
-import Header from "@/components/Header";
 import styles from "./index.module.scss";
+
+import Header from "@/components/Header";
 import Head from "next/head";
+import ItemList from "@/components/ItemList";
+
+import { lanches, porcoes, bebidasSemAlcool, bebidasAlcoolicas, drinks, vinhos, doces } from "@/data/menu";
 
 
 export default function Index() {
@@ -13,6 +17,15 @@ export default function Index() {
         <meta name="description" content="Cardáprio da Cantina da Dona Joaninha" />
       </Head>
       <Header />
+      <main className={styles.container__main}>
+        <ItemList title="Lanches" itens={lanches} />
+        <ItemList title="Porções" itens={porcoes} />
+        <ItemList title="Bebidas sem alcool" itens={bebidasSemAlcool} />
+        <ItemList title="Bebidas alcoolicas" itens={bebidasAlcoolicas} />
+        <ItemList title="Drinks" itens={drinks} />
+        <ItemList title="Vinhos" itens={vinhos} />
+        <ItemList title="Doces" itens={doces} />
+      </main>
     </div>
   );
 }

@@ -4,6 +4,8 @@
   margin: 0;
 
   -webkit-tap-highlight-color: transparent;
+  --max-width: 1200px;
+  list-style-type: none;
 }
 
 html,
@@ -15,7 +17,7 @@ body {
 
 body {
   color: rgb(0, 0, 0);
-  background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)) rgb(214, 219, 220);
+  background: linear-gradient(to top, transparent, rgb(255, 255, 255)) rgb(225, 225, 220);
 }
 
 a {
@@ -30,6 +32,6 @@ a {
 
   body {
     color: rgb(255, 255, 255);
-    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)) rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
   }
 }
