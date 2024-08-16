@@ -17,7 +17,7 @@ body {
 
 body {
   color: rgb(0, 0, 0);
-  background: linear-gradient(to top, transparent, rgb(255, 255, 255)) rgb(225, 225, 220);
+  background: rgb(250, 250, 250);
 }
 
 a {
