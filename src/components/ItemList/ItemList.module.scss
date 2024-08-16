@@ -8,6 +8,7 @@
     text-align: center;
     color: #FF1715;
     font-size: 2em;
+    text-transform: uppercase;
   }
 
   &__list {
@@ -27,6 +28,7 @@
       
       &__name {
         flex-grow: 1;
+        letter-spacing: 1px;
       }
 
       &__price {
