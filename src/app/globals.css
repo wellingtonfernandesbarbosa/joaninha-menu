@@ -10,6 +10,8 @@
   list-style-type: none;
 
   font-family: 'Manrope', sans-serif;
+
+  --color-red: #FF1715;
 }
 
 html,
@@ -20,8 +22,7 @@ body {
 }
 
 body {
-  color: rgb(0, 0, 0);
-  background: rgb(250, 250, 250);
+  background: var(--color-red);
 }
 
 a {

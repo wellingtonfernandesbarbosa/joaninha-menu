@@ -6,7 +6,7 @@
 
   &__title {
     text-align: center;
-    color: #FF1715;
+    color: var(--color-red);
     font-size: 2em;
     text-transform: uppercase;
   }
@@ -30,9 +30,10 @@
         flex-grow: 1;
         letter-spacing: 1px;
       }
-
+      
       &__price {
         min-width: max-content;
+        letter-spacing: 1px;
       }
     }
   }
