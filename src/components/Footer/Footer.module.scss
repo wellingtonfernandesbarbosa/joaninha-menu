@@ -1,0 +1,18 @@
+.footer {
+  background-color: #FF1715;
+  padding: 0.5em;
+  
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    padding: 1em;
+    
+    &__text {
+      color: #000000;
+    }
+  }
+}

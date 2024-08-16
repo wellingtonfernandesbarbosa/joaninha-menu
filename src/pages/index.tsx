@@ -1,7 +1,9 @@
 import styles from "./index.module.scss";
 
-import Header from "@/components/Header";
 import Head from "next/head";
+
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import ItemList from "@/components/ItemList";
 
 import { lanches, porcoes, bebidasSemAlcool, bebidasAlcoolicas, drinks, vinhos, doces } from "@/data/menu";
@@ -26,6 +28,7 @@ export default function Index() {
         <ItemList title="Vinhos" itens={vinhos} />
         <ItemList title="Doces" itens={doces} />
       </main>
+      <Footer />
     </div>
   );
 }
