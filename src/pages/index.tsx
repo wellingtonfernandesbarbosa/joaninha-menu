@@ -8,7 +8,6 @@ import ItemList from "@/components/ItemList";
 
 import { lanches, porcoes, bebidasSemAlcool, bebidasAlcoolicas, drinks, vinhos, doces } from "@/data/menu";
 
-
 export default function Index() {
   return (
     <div className={styles.container}>

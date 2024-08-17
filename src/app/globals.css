@@ -6,12 +6,13 @@
   margin: 0;
 
   -webkit-tap-highlight-color: transparent;
-  --max-width: 1200px;
   list-style-type: none;
-
+  
   font-family: 'Manrope', sans-serif;
-
+  
+  --max-width: 1200px;
   --color-red: #FF1715;
+  --color-black: #000000;
 }
 
 html,
@@ -37,6 +38,6 @@ a {
 
   body {
     color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    background: var(--color-black);
   }
 }
